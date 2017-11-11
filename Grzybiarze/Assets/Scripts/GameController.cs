@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour {
 
+	List<Shroom> lista_grzybow;
+	List<Shroomer> lista_grzybiarzy;
+	List<House> lista_domow;
+
+
 
 	void Start () {
 		
