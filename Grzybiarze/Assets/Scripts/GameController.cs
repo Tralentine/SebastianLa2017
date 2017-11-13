@@ -18,4 +18,11 @@ public class GameController : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	public Vector3 wylosuj_Pozycje()
+	{
+		Vector3 pozycja = Camera.main.ViewportToWorldPoint (new Vector3 (Random.value, Random.value, Random.value));
+		pozycja.y = transform.position.y;
+		return pozycja;
+	}
 }
