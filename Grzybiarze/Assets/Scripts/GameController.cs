@@ -15,7 +15,7 @@ public class GameController : MonoBehaviour {
 
 	void Start () {
 		czas_spawnu_grzyba = 0;
-		cooldown_spawnu_grzyba = 10;
+		cooldown_spawnu_grzyba = 5;
 		
 	}
 	
