@@ -8,7 +8,7 @@ public class ColliderZwykly : MonoBehaviour {
 	{
 		if (col.collider.transform.tag == "Grzyb")
 		{
-			Debug.Log ("wszedlem w grzyba");
+			//Debug.Log ("wszedlem w grzyba");
 			transform.parent.GetComponent<Shroomer>().OnCollisionEnterChild (col);
 
 		}
