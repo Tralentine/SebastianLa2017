@@ -9,7 +9,7 @@ public class ColliderZasieguWidzenia : MonoBehaviour {
 	{
 		if (col.transform.tag == "Grzyb")
 		{
-			Debug.Log ("wszedłem w zasieg widzenia grzyba");
+			//Debug.Log ("wszedłem w zasieg widzenia grzyba");
 			transform.parent.GetComponent<Shroomer> ().OnTriggerEnterChild (col);
 		}
 	}
